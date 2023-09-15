@@ -26,7 +26,7 @@ pipeline
             steps
             {
                 echo 'deploying the application'
-                sh 'TestAdd.py'
+                sh 'python --version'
             }
         }
     }
