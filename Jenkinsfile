@@ -26,7 +26,9 @@ pipeline
             steps
             {
                 echo 'deploying the application'
-                sh 'python --version'
+                sh '''
+                gcloud version
+                '''
             }
         }
     }
